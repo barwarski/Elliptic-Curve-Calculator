@@ -10,4 +10,5 @@
 
 ## Example:
 
-![alt text](example.png)
+![alt text](./example.png)
+<img src="/example.png" alt="My cool logo"/>
