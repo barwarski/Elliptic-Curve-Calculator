@@ -13,14 +13,14 @@ def start(a,b,p,x1,y1,x2,y2):
         return (addition(p, x1, y1, x2, y2))
     else:
         return ("Error")
-#double
+#point doubling
 def verdoppelung(a,p,x1,y1,x2):
     ggT = eea(2*y1,p)
     s = ((3*x1**2+a)*ggT)%p 
     x3 = (s**2-x1-x2)%p
     y3 = (s*(x1-x3)-y1)%p
     return "Ergebnis: (" + str(x3) + "," + str(y3) + ")"
-#addition
+#point addition
 def addition(p,x1,y1,x2,y2):
     ggT = eea((x2-x1),p) ## calculate multiplicative inverse
     s = ((y2-y1)*ggT)%p
