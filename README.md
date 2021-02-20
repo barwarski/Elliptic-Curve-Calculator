@@ -10,6 +10,4 @@
 
 ## Example:
 
-E: y^2 = x^3 + 2x + 2. mod 17
-
-R = (5,1) + (5,1)
+![alt text](example.png)
