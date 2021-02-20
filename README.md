@@ -2,7 +2,7 @@
 
 Needed parameters:
 
-Parameter name  | 
+Parameter name| 
 ------------- | -------------
-a  | Content Cell
-b  |  \| 
+a             | Content Cell
+b             |  \| 
