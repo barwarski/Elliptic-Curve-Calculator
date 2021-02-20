@@ -1,6 +1,6 @@
 # Elliptic-Curve-Calculator
 
-Needed parameters:
+## Needed parameters:
 
 * a
 * b
@@ -8,7 +8,7 @@ Needed parameters:
 * P=(x1,y1)
 * Q=(x2,y2)
 
-Example:
+## Example:
 
 E: y^2 = x^3 + 2x + 2. mod 17
 
