@@ -83,7 +83,7 @@ class Gui(object):
         y1 = int(self.entry_y1.get())
         x2 = int(self.entry_x2.get())
         y2 = int(self.entry_y2.get())
-        result = start(a, b, p, x1, x2, y1, y2)
+        result = start(a, b, p, x1, y1, x2, y2)
         #result_text = "Result: " + str(result)
         newWindow = Toplevel(self.root)
         newWindow.title("Result")
