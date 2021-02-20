@@ -2,7 +2,8 @@
 
 Needed parameters:
 
-Parameter name| 
-------------- | -------------
-a             | Content Cell
-b             |  \| 
+* a
+* b
+* p
+* (x1,y1)
+* (x2,y2)
