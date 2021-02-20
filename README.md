@@ -9,4 +9,7 @@ Needed parameters:
 * Q=(x2,y2)
 
 Example:
-y2 D x3 􏰋 3x C 3 
+
+E: y^2 = x^3 + 2x + 2. mod 17
+
+R = (5,1) + (5,1)
