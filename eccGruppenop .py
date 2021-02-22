@@ -1,12 +1,12 @@
 def start(a,b,p,x1,y1,x2,y2):
     if bedingung_test(a,b,p):
-        return ("Def. 9.1 nicht erfüllt. Ungeeignet")
+        return ("Def. 9.1 not fulfilled")
     elif x1 == x2 and y1 == y2:
         return (verdoppelung(a,p,x1,y2,x2))
     elif x1 == y1 == 0: #point at infinity
-        return ("Ergebnis: (" + str(x2) + "," + str(y2) + ")")
+        return ("Result: (" + str(x2) + "," + str(y2) + ")")
     elif y2 == x2 == 0:
-        return ("Ergebnis: (" + str(x1) + "," + str(y1) + ")")
+        return ("Result: (" + str(x1) + "," + str(y1) + ")")
     #elif x1 != x2 and y1 != y2:
     #    print(addition(p,x1,y1,x2,y2))
     elif x1 != x2 or y1 != y2:
